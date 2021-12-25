@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main_container{
+   
+   height:100vh;
+   
+   background-size:cover;
+   background-image:url('../public/fg.png');
+   background-repeat:no-repeat;
+  
+
+}
+
+.clock h1{
+  text-align: center;
+  color: aliceblue;
+}
+.set_contain{
+  height: 159px;
+  width: 207px;
+  border: 1px solid white;
+  margin-left: 5%;
+  background-color: white;
+  opacity: 2.5;
+  border-radius: 10px;
+  margin-top: 8%;
+
+
+}
+
+.set_contain input{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 20%;
+  height: 35px;
+  outline: none;
+  margin: 24px;
+  padding: 0px 9px;
+  outline: none;
+  
+}
+#time{
+  height: 26px;
+    width: 18px;
+    border: none;
+    outline: none;
+}
+.btn{
+  height: 100px;
+  width: 138px;
+  margin: 3%;
+  /* border: 1px solid green; */
+  margin-left: 10%;
+}
+.btn input{
+  height: 20px;
+    width: 71px;
+    background: #d63031;
+    line-height: initial;
+    text-align: center;
+    text-decoration: none;
+    font-size: smaller;
+    color: aliceblue;
+    border-radius: 6px;
+
+}
+
